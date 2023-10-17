@@ -5,48 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Canva Website</title>
 </head>
 <body>
     
     <div>
-        
-            <nav class="navbar">
+        <div class="navbar_0">
+          
+           <nav class="container navbar">
               <span class="navbar-toggle" id="js-navbar-toggle">
                       <i class="fas fa-bars"></i>
                   </span>
-              <a href="#" class="logo">logo</a>
+              <a href="#" class="logo logo1">logo</a>
               <ul class="main-nav" id="js-menu">
                 <li>
                   <a href="#" class="nav-links">Home</a>
                 </li>
                 <li>
-                  <a href="#" class="nav-links">Services</a>
+                  <a href="#service" class="nav-links">Services</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Expertise</a>
+                    <a href="#expertise" class="nav-links">Expertise</a>
                   </li>
                 <li>
-                   <a href="#" class="nav-links">Resources</a>
+                   <a href="#resource" class="nav-links">Resources</a>
                 </li>
                 <li>
-                  <a href="#" class="nav-links">About Us</a>
+                  <a href="#about" class="nav-links">About Us</a>
                 </li>
                 <li>
-                  <a href="#" class="nav-links">Contact Us</a>
+                  <a href="#contact" class="nav-links">Contact Us</a>
                 </li>
                 
               </ul>
             </nav>
+          </div>
 
             <!-- ===========Content========== -->
             <section>
-              <div class="container content0 mt-1">
+              <div class="container content0">
                  <div class="row">
                     <div class="col-sm-6 col-lg-6">
                          <div class="image">
-                            <img src="Images/imag1.webp" />
+                            <img src="Images/Deepika Image for About deepika.jpg" />
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-6">
@@ -65,11 +68,12 @@
 
             <!-- ==========step2=========== -->
             <section>
-              <div class="container text-center cont_sect">
+              <div id="service" class="container text-center cont_sect">
+                <h3>OUR SERVICES</h3>
                 <div class="row gy-3 mt-3">
                   <div class="col-sm">
-                    <div class="card w-75 d-flex mx-auto h-100">
-                      <img src="https://codingyaar.com/wp-content/uploads/card-image.jpg" class="card-img-top" alt="...">
+                    <div class="card w-75 d-flex mx-auto h-75">
+                      <img src="Images/ENERGY ALCHEMY.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">ENERGY ALCHEMY</h5>
                         <div class="content3">
@@ -80,9 +84,9 @@
                   </div>
                   <div class="col-sm">
                     <div class="card w-75 d-flex mx-auto h-100">
-                      <img src="https://codingyaar.com/wp-content/uploads/card-image.jpg" class="card-img-top" alt="...">
+                      <img src="Images/HOLISTIC HEALING.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">ENERGY ALCHEMY</h5>
+                        <h5 class="card-title">HOLISTIC HEALING</h5>
                         <div class="content3">
                           <a href=""><button type="button">Learn Mores</button></a>
                       </div>
@@ -97,12 +101,12 @@
 
             <!-- ===============step3================== -->
             <section>
-              <div class="container text-center cont_sect1">
-                <div class="row gy-3 mt-3 ">
+              <div id="expertise" class="container text-center cont_sect1">
+                <div class="row gy-3 ">
                   <h3 class="mt-3">Diverse Expertise</h3>
                   <div class="col-sm">
                     <div class="card2 h-100">
-                      <img src="Images/download (4).jpg" class="card-img-top" alt="...">
+                      <img src="Images/Vastu Consultancy.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h3 class="card-title">Vastu Consultancy</h3>
                       </div>
@@ -110,7 +114,7 @@
                   </div>
                   <div class="col-sm">
                     <div class="card2 h-100">
-                      <img src="Images/download5.jpg" class="card-img-top" alt="...">
+                      <img src="Images/Tarot Reading.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h3 class="card-title">Tarot Reading</h3>
                       </div>
@@ -118,7 +122,7 @@
                   </div>
                   <div class="col-sm">
                     <div class="card2 h-100">
-                      <img src="Images/download (4).jpg" class="card-img-top" alt="...">
+                      <img src="Images/Lama Fera Healing.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h3 class="card-title">Lama Fera Healing</h3>
                        </div>
@@ -130,11 +134,11 @@
 
              <!-- ===========Step4========== -->
              <section>
-              <div class="container content0 mt-3 njt">
+              <div class="container content0  content0_background">
                  <div class="row">
                     <div class="col-sm-6 col-lg-6">
                          <div class="image">
-                            <img src="Images/girls.jpeg" />
+                            <img src="Images/Deepika Image for About deepika.jpg" />
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-6">
@@ -143,7 +147,7 @@
                           <p class="mt-4">From a tumultuous past marked by shattered self-worth and deep struggles, I emerged as a dedicated life coach and spiritual healer. Realizing that true happiness stemmed from within, I embarked on a journey of self-discovery, exploring ancient wisdom and healing modalities. Now, with a heart full of compassion and understanding, I guide others towards self-love, resilience, and purpose, illuminating paths to growth and healing.</p>
                         </div>
                         <div class="content1">
-                            <button type="button">Read More</button>
+                            <a href="my-story.html"><button type="button">Read More</button></a>
                         </div>
                     </div>
                  </div>
@@ -152,7 +156,7 @@
 
             <!-- ===========Step5========== -->
             <section>
-              <div class="container content0 mt-3">
+              <div id="about" class="container content0 ">
                  <div class="row">
                     <div class="col-sm-6 col-lg-6">
                       <h3 class="text-center">Client <br>Testimonial</h3>
@@ -170,7 +174,7 @@
                       <div class = "container testimonials ">
                         <ul style="margin-top: 20px;">
                           <li>
-                            <img src = "Images/lady1.jpg" />
+                            <img src = "Images/Anamika Image.jpg" />
                             <p>I was stuck in some serious confusion I called Deepika ma'am and without  serious matter in your life and want help and get direction I highly recommended a session with Deepika Ma'am.Thank for all.She is blesssing</p>
                             <h1>Anamika Agarwal</h1>
                           </li>
@@ -179,7 +183,7 @@
                       <div class = "container testimonials">
                         <ul>
                           <li>
-                            <img src = "Images/lady2.jpg">
+                            <img src = "Images/Dipa - Testimonial -3 Image.jpg">
                             <p>I had a nice interaction with Deepika. She radiates positive approach in every aspect. She is very genuine and concerned. Her readings are accurate. I would highly recommend her anytime.Thanks a lot Deepika!  </p>
                             <h1>Deepa</h1>
                           </li>
@@ -192,12 +196,12 @@
 
              <!-- ===========Step6========== -->
              <section>
-              <div class="container content6 mt-3">
+              <div id="resource" class="container content6 ">
                 <h1 class="text-center">Free Resources</h1>
                  <div class="row mt-5">
                     <div class="col-sm-6 col-lg-6">
                          <div class="image1">
-                            <img src="Images/mahavastu pic.jpg"  />
+                            <img src="Images/Vastu symbols.jpg"  />
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-6">
@@ -216,16 +220,16 @@
 
              <!-- ===========Step7=========== -->
              <section>
-              <div class="container content6 mt-3">
+              <div id="contact" class="container content6 ">
                 <h1 class="text-center">CONTACT DETAILS</h1>
                 <p class="text-center">Can’t wait to get connected !</p>
                 <hr>
                 <div class="row">
-                   <div class="col-lg-4 content7_1">
+                   <div class="col-lg-4 content7_1 content_border">
                       <h2>Phone </h2>
                       <p>+91 9871566663</p>
                    </div>
-                   <div class="col-lg-4 content7_1">
+                   <div class="col-lg-4 content7_1 content_border">
                     <h2>Email</h2>
                     <p>info@healingsoulswithdeepika.com</p>
                    </div>
@@ -244,17 +248,58 @@
           
             </div>
             <!-- ===========Step8=========== -->
-                     
-            <footer>
-             <div class="footer">
-                <div class="footer_img">
-                  <img src="Images/whatsapp logo.jpg" />
-                  <img src="Images/insta logo.jpg" />
-                  <img src="Images/youtube logo.png" />
-                  <img src="Images/facebook logo.jpg" />
+            <footer class="footer ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                        <div class="information">
+                            <h6 class="footer-heading text-uppercase  fw-bold">Information</h6>
+                            <ul class="list-unstyled footer-link mt-4">
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Events</a></li>
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Our Team</a></li>
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Upcoming Sale</a></li>
+                                <li class=""><a href="#" class=" text-decoration-none fw-semibold">New Launches</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mt-4 col-lg-3 text-center text-sm-start">
+                        <div class="resources">
+                            <h6 class="footer-heading text-uppercase  fw-bold">Resources</h6>
+                            <ul class="list-unstyled footer-link mt-4">
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Services</a></li>
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Expertise</a></li>
+                                <li class="mb-1"><a href="#" class=" text-decoration-none fw-semibold">Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mt-4 col-lg-2 text-center text-sm-start">
+                      <div class="social">
+                          <h6 class="footer-heading text-uppercase fw-bold">Social</h6>
+                          <ul class="list-inline my-4">
+                            <li class="list-inline-item"><a href="" class="   mb-2"><i class="fa-brands fa-square-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="" class="    mb-2"><i class="fa-brands fa-square-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="" class="    mb-2"><i class="fa-brands fa-square-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="" class="   mb-2"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                        </ul>
+                      </div>
+                  </div>
+                    <div class="col-sm-6 col-md-6 mt-4 col-lg-4 text-center text-sm-start">
+                      <div class="contact">
+                          <h6 class="footer-heading text-uppercase  fw-bold">Contact Us</h6>
+                          <address class="mt-4 m-0  mb-1"><i class="bi bi-pin-map fw-semibold"></i> Supertech Capetown
+
+                            Sector 74, Noida</address>
+                          <a href="tel:+" class=" mb-1 text-decoration-none d-block fw-semibold"><i class="fa-solid fa-mobile"></i>  +91 9871566663</a>
+                          <a href="mailto:" class=" mb-1 text-decoration-none d-block fw-semibold"><i class="fa-regular fa-envelope"></i> info@healingsoulswithdeepika.com</a>
+                      </div>
+                    </div>
                 </div>
-             </div>
-           </footer>
+            </div>
+            
+            <div class="text-center  mt-4 p-1 footer_copyright">
+                <p class="mb-0 fw-bold">2023 © Canvas, All Rights Reserved</p>
+            </div>
+          </footer>
 
 
 <script>
